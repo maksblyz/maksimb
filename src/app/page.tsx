@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <p className="text-center text-xl mb-12">
-        Hi, I'm <span className="font-['Monsieur'] text-xl">M</span>aksim <span className="font-['Monsieur'] text-2xl">B</span>lyznyuk. I love building. Interested in AI, ML, and design. 
+        Hi, I&apos;m <span className="font-['Monsieur'] text-xl">M</span>aksim <span className="font-['Monsieur'] text-2xl">B</span>lyznyuk. I love building. Interested in AI, ML, and design. 
       </p>
 
       <p className="text-center text-xl mb-4">
