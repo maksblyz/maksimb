@@ -46,7 +46,7 @@ export default function Home() {
         title="Reeve"
         description="This is my take on the infamous to-do list project. You can only add a maximum of 3 tasks,
         and once you lock them in, you have 12 hours to complete them or money is lost. It's made to help
-        you cut out the noise, focus on the signal, and get things done. Simple, but effective."
+        you cut out the noise, focus on the signal, and get things done."
         video="/vids/reeve.mp4"
         github="https://github.com/maksblyz/reeve"
         live="https://itsreeve.com"
