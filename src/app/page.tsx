@@ -4,19 +4,19 @@ export default function Home() {
   return (
     <>
       <p className="text-center text-xl mb-12">
-        Hi, I&apos;m <span className="font-['Monsieur'] text-xl">M</span>aksim <span className="font-['Monsieur'] text-2xl">B</span>lyznyuk. I love building. Interested in AI, ML, and design. 
+        Hi, I&apos;m <span className="font-['Monsieur'] text-2xl">M</span>aksim <span className="font-['Monsieur'] text-2xl">B</span>lyznyuk. I love building. Interested in AI, ML, and design. 
       </p>
 
       <p className="text-center text-xl mb-4">
         Contact:
       </p>
-      <p className="text-center text-xl mb-12">
-        <a href="https://x.com/b1yzm" className="underline" target="_blank" rel="noopener noreferrer">Twitter</a>
-        <span className="mx-8"></span>
-        <a href="mailto:maksim.blyznyuk@rutgers.edu" className="underline">maksim.blyznyuk@rutgers.edu</a>
-        <span className="mx-8"></span>
-        <a href="https://github.com/maksblyz" className="underline" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </p>
+      <div className="text-center text-xl mb-12">
+        <div className="flex flex-col md:flex-row md:justify-center md:space-x-8 space-y-2 md:space-y-0">
+          <a href="https://x.com/b1yzm" className="underline" target="_blank" rel="noopener noreferrer">Twitter</a>
+          <a href="mailto:maksim.blyznyuk@rutgers.edu" className="underline">maksim.blyznyuk@rutgers.edu</a>
+          <a href="https://github.com/maksblyz" className="underline" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
 
       <ProjectCard
         title="Glossa"
