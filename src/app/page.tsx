@@ -36,7 +36,7 @@ export default function Home() {
         most effective ways to deeply learn anything, and studies back this up. But 
         most existing tools suck at making this easy, especially when learning from 
         videos. Memento lets you watch any YouTube video, jot down what you remember, and 
-        and instantly get AI-driven feedback on your recall. It forces you to actively 
+        instantly get AI-driven feedback on your recall. It forces you to actively 
         engage with the material, a pretty effective antidote to passive watching."
         video="/vids/memento.mp4"
         github="https://github.com/maksblyz/memento"
