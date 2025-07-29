@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white;
+  color: black;
+}
+
+@font-face {
+  font-family: "Monsieur";
+  src: url("/fonts/MonsieurLaDoulaise-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.dropcap { 
+  @apply font-['Monsieur'] text-3xl inline-block align-top; 
+  margin-right: 0.4em;
+  line-height: 1;
+  margin-bottom: -0.1em;
+}
+.dropcap[data-ch='A'] { 
+  margin-right: -0.05em; 
+}
