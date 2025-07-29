@@ -25,7 +25,7 @@ export default function Home() {
         tedious: copying, pasting, screenshotting, switching tabs to ChatGPT, and providing context, all 
         just to ask one question. As someone naturally curious, this friction was frustrating. 
         So I built this tool to create a seamless, intuitive experience for engaging with research papers. 
-        It's not an AI summarizer, it’s designed to support deeper reading, not replace it"
+        It's not an AI summarizer, it’s designed to support deeper reading, not replace it."
         video="/vids/glossa_1.mp4"
         github="https://github.com/maksblyz/glossa"
       />
